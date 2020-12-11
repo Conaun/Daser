@@ -106,16 +106,16 @@ def generateFile(file_path):
 
 
 def set_WORK_PLACE_PATH(work_place_path):
-    global WORK_PLACE_PATH = work_place_path
+    WORK_PLACE_PATH = work_place_path
 
 def set_PROJECT_PREFIX(project_prefix):
-    global PROJECT_PREFIX = project_prefix
+    PROJECT_PREFIX = project_prefix
 
 def set_PROJECT_REAL_PATH_PREFIX(prject_real_path_prefix):
-    global PROJECT_REAL_PATH_PREFIX = prject_real_path_prefix
+    PROJECT_REAL_PATH_PREFIX = prject_real_path_prefix
 
 def set_PROJECT_DEPLO_PATH_PREFIX(prject_deploy_path_prefix):
-    global PROJECT_DEPLO_PATH_PREFIX = prject_deploy_path_prefix
+    PROJECT_DEPLO_PATH_PREFIX = prject_deploy_path_prefix
 
 def get_WORK_PLACE_PATH():
     return WORK_PLACE_PATH
